@@ -1,0 +1,37 @@
+.home {
+    padding: 0 10rem;
+}
+
+.home__header {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+}
+
+.home__headline {
+    margin-bottom: 0;
+}
+
+.home__hr {
+    height: 8px;
+    /* background-color: black; */
+    background-image: linear-gradient(90deg, black, transparent);
+    
+    border: 0;
+    height: 1px;
+}
+
+.home__links {
+    margin-top: auto;
+    text-align: center;
+}
+
+.home__links img {
+    border-radius: 50%;
+    border: 1px ridge darkblue;
+    margin-left: 0.25rem;
+}
+
+.home__links a:first-child img {
+    margin-left: 0;
+}
